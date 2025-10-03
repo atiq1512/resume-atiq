@@ -24,7 +24,7 @@ left, right = st.columns([1, 2])
 # Left column = Skills + Education
 with left:
     st.header("🎓 Education")
-    st.write("**Bachelor’s Degree in Computer Science**")
+    st.write("**Bachelor’s Degree in Information Technology**")
     st.write("University Malaysia Kelantan (2023–2026)")
 
     st.header("🛠 Skills")
