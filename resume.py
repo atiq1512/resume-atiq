@@ -7,7 +7,7 @@ st.set_page_config(page_title="Resume — Atiq Nurnatasha", layout="wide")
 col1, col2 = st.columns([1, 3])
 
 with col1:
-    st.image("https://via.placeholder.com/180", width=180, caption="Atiq Nurnatasha")  # Replace with your profile photo
+    st.image("https://github.com/atiq1512/resume-atiq/blob/main/gambar%20passport%20(35x50mm).jpg", width=180, caption="Atiq Nurnatasha")  # Replace with your profile photo
 
 with col2:
     st.title("Atiq Nurnatasha")
