@@ -16,7 +16,7 @@ with col2:
         """
         📍 Batu Kurau, Perak  
         📧 [atiqnurnatasha15@gmail.com](mailto:atiqnurnatasha15@gmail.com)  
-        📱 011-51576711  
+        📱 +60 11-5157 6711
         🔗 https://linkedin.com/in/atiqsha
         """
     )
