@@ -17,7 +17,7 @@ with col2:
         📍 Batu Kurau, Perak  
         📧 [atiqnurnatasha15@gmail.com](mailto:atiqnurnatasha15@gmail.com)  
         📱 011-51576711  
-        🔗 [LinkedIn](https://linkedin.com/in/atiqsha)
+        🔗 [https://linkedin.com/in/atiqsha]
         """
     )
 
@@ -35,7 +35,7 @@ with left:
         "**Diploma in Information Technology (Digital Technology)** — Politeknik Sultan Abdul Halim Mu'adzam Shah, Kedah (2019–2022)"
     )
     st.write(
-        "**Bachelor’s Degree in Information Technology** — University Malaysia Kelantan (2023–2026)"
+        "**Bachelor’s Degree in Information Technology** — Universiti Malaysia Kelantan (2023–2026)"
     )
 
     st.subheader("🛠 Skills")
