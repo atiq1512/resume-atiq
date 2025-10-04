@@ -51,8 +51,7 @@ with left:
     st.subheader("🏆 Awards & Achievements")
     st.write("- Certificate of Industry Trainee in Information Technology (July 2022)")
     st.write("- Anugerah Kecemerlangan Akademik (June 2022)")
-    st.write("- Certificate of Majlis Pra-Graduan (Souvenir Committee) (Jan 2022)")
-    st.write("- 🥇 **Anugerah Pingat Ketua Jabatan (Oct 2023)**")
+    st.write("- Anugerah Pingat Ketua Jabatan (Oct 2023)")
 
 # RIGHT COLUMN
 with right:
