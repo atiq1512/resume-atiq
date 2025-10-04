@@ -1,58 +1,88 @@
 import streamlit as st
 
-# --- Page Settings ---
+# --- PAGE CONFIG ---
 st.set_page_config(page_title="Resume — Atiq Nurnatasha", layout="wide")
 
-# --- Header Section ---
+# --- HEADER ---
 col1, col2 = st.columns([1, 3])
 
 with col1:
-    st.image("atiq.jpg", width=180, caption="Atiq Nurnatasha")  # Replace with your profile photo
+    st.image("atiq.jpg", width=180, caption="Atiq Nurnatasha")
 
 with col2:
-    st.title("Atiq Nurnatasha")
-    st.markdown("💻 **IT Student | Aspiring Developer | Tech Enthusiast**")
-    st.write("📧 Email: atiqnurnatasha@gmail.com")
-    st.write("📱 Phone: (+60) 115-1576711")
-    st.write("🔗 LinkedIn: [linkedin.com/in/atiqsha](https://linkedin.com/in/atiqsha)")
+    st.title("Atiq Nurnatasha binti Zainal Abidin")
+    st.markdown("💻 **Information Technology Student | Aspiring Developer | Tech Enthusiast**")
+    st.markdown(
+        """
+        📍 Batu Kurau, Perak  
+        📧 [atiqnurnatasha15@gmail.com](mailto:atiqnurnatasha15@gmail.com)  
+        📱 011-51576711  
+        🔗 [LinkedIn](https://linkedin.com/in/atiqsha)
+        """
+    )
 
 st.markdown("---")
 
-# --- Main Layout ---
+# --- MAIN LAYOUT ---
 left, right = st.columns([1, 2])
 
-# Left column = Skills + Education
+# LEFT COLUMN
 with left:
-    st.header("🎓 Education")
-    st.write("**Bachelor’s Degree in Information Technology**")
-    st.write("University Malaysia Kelantan (2023–2026)")
-
-    st.header("🛠 Skills")
-    st.write("- Python & Streamlit")
-    st.write("- Web Development")
-    st.write("- Problem Solving")
-    st.write("- Technical Support")
-    st.write("- Communication & Teamwork")
-
-# Right column = Work Experience + Projects
-with right:
-    st.header("💼 Work Experience")
-    st.subheader("Intern — IT Department, Majlis Perbandaran Taiping (2022)")
-    st.write("- Assisted staff with technical issues that occurred")
-    st.write("- Provided support to team members and managers as needed")
-    st.write("- Helped with various issues, including connection problems")
-
-    st.header("📂 Projects")
-    st.subheader("Smart Water Sprinkler System")
+    st.subheader("🎓 Education")
+    st.write("**Sekolah Kebangsaan Batu Kurau**, Perak (2008–2013)")
+    st.write("**SMK Dato' Kamaruddin**, Batu Kurau, Perak (2014–2018)")
     st.write(
-        "Developed an IoT-based smart sprinkler prototype with moisture sensors "
-        "to optimize water usage and improve sustainability."
+        "**Diploma in Information Technology (Digital Technology)** — Politeknik Sultan Abdul Halim Mu'adzam Shah, Kedah (2019–2022)"
+    )
+    st.write(
+        "**Bachelor’s Degree in Information Technology** — University Malaysia Kelantan (2023–2026)"
     )
 
-    st.subheader("Portfolio Website")
+    st.subheader("🛠 Skills")
     st.write(
-        "Built a personal portfolio site using HTML, CSS, and JavaScript to showcase "
-        "projects and achievements."
+        """
+        - Programming: HTML, C++, Java  
+        - Software: Microsoft Word, PowerPoint  
+        - Languages: Malay (Native), English (Bilingual)  
+        - Strengths: Problem Solving, Teamwork, Communication  
+        """
+    )
+
+    st.subheader("🏆 Awards & Achievements")
+    st.write("- Certificate of Industry Trainee in Information Technology (July 2022)")
+    st.write("- Anugerah Kecemerlangan Akademik (June 2022)")
+    st.write("- Certificate of Majlis Pra-Graduan (Souvenir Committee) (Jan 2022)")
+    st.write("- 🥇 **Anugerah Pingat Ketua Jabatan (Oct 2023)**")
+
+# RIGHT COLUMN
+with right:
+    st.subheader("💼 Work Experience")
+
+    st.markdown("**Tadika APC**, Taiping, Perak — Babysitter & Kindergarten Teacher *(Jan 2019 – Mar 2019)*")
+    st.write(
+        """
+        • Entertained children through games and creative activities.  
+        • Prepared snacks and meals for children.  
+        • Created lesson plans and teaching materials.  
+        • Taught basic academic skills such as alphabets, colours, shapes, and number recognition.
+        """
+    )
+
+    st.markdown("**Majlis Perbandaran Taiping (MPT)**, Taiping, Perak — IT Trainee *(Apr 2022 – Jul 2022)*")
+    st.write(
+        """
+        • Provided technical support for system and network issues.  
+        • Assisted team members and managers in resolving IT problems.  
+        • Helped troubleshoot connectivity and data access errors.  
+        """
+    )
+
+    st.subheader("📂 Projects")
+    st.write(
+        """
+        - **Smart Water Sprinkler System** — IoT-based prototype with moisture sensors for efficient water use.  
+        - **Portfolio Website** — Personal site built using HTML, CSS, and JavaScript to display achievements.  
+        """
     )
 
 st.markdown("---")
